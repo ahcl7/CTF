@@ -1,0 +1,160 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nullcon HackIM 2018 - Play and win exciting prizes</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8">
+	<link href="css/flags.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/bootstrap.min.js"> </script>
+	<script src="js/jquery.flagstrap.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <meta property="og:title" content="Nullcon HackIM - play and win exciting prizes" />
+  <meta property="og:description" content="HackIM is an online Capture-The-Flag event organized by Nullcon Team." />
+  <meta property="og:url" content="http://ctf.nullcon.net" />
+
+
+</head>
+<body>
+	<header>
+		<img src="img/logo.png" alt="Nullcon HackIM">	
+	</header>	<div class="container">
+					<div id="content">
+			<div class="row">
+				<div class="span3">
+					<div class="inside">
+						<p class="msg"> Winner of <strong>HackIM 2018</strong> will get <strong>USD 250</strong>,  <strong>free conference pass </strong>and <strong>2 nights stay</strong> during<strong> Nullcon Goa 2018</strong><br/ ><hr /></strong><div align="center">Registration is open now.</div></p>
+						<a href="scoreboard.php"><img src="img/scoreboard.png" alt="View the ScoreBoard"></a>
+					</div>
+				</div>
+				<div class="span5">
+					<div class="inside leftborder">
+						<a href="#register" data-toggle="modal"><img src="img/login.png"></a>
+						<br/>
+						<br/>
+						<form action="login-proc.php" method="post">
+							<fieldset>
+								<div class="clearfix">
+									<input type="text" placeholder="Username" name ="username" required>
+								</div>
+								<div class="clearfix">
+									<input type="password" placeholder="Password" name="password" required>
+								</div>
+								<div class="clearfix" id="login-btn">
+									<button class="btn btn-primary btn-large" type="submit">Sign in</button>
+									<br/>
+									<small><a href="#forgotpass" data-toggle="modal"> Forgot Password </a></small>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div align="center">
+			<ul id="bottomnav" class="unstyled">
+				<li><a href="readme.php" target="_blank">ReadMe</a></li><li><a href="madprops.php" target="_blank">MadProps</a></li><li><a href="https://join.slack.com/t/nullcon/shared_invite/enQtMzA4NjkyOTk0NDA3LTJkM2E3NGVlYzE1ZTM1MmMwNTg1M2NiNjk4YzgyNzE5NjA4YTQ3MjU3NDdhZjA5MjAwNjU0MmJlYjllNGQ5OTA" target="_blank">Unofficial Slack</a></li><li><a href="scoreboard.php" target="_blank">Scoreboard</a></li>
+			</ul>
+		</div>	</div>
+	<div id="forgotpass" class="modal hide fade">
+		<form class="form-horizontal" action="forgotpass-proc.php" method="post" onsubmit="return validate_form(this);">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h3>Forgot Password</h3>
+			</div>
+			<div class="modal-body">
+
+				<div class="control-group">
+					<label class="control-label" for="email">Email </label>
+					<div class="controls">
+						<input type="text" name="email" required placeholder="Email">
+					</div>
+				</div>
+				<div class="control-group">
+					<div class="controls">
+						<div class="clearfix" id="secondary"></div>
+					</div>
+				</div>
+
+			</div>
+			<div class="modal-footer">
+					<button name="submit" class="btn btn-primary btn-large" type="submit">Forgot Password</button>				
+			</div>
+		</form>
+	</div>
+
+
+	<div id="register" class="modal hide fade">
+		<form class="form-horizontal" action="register-proc.php" method="post" onsubmit="return validate_form(this);">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4>Register for Nullcon HackIM - 2018</h4>
+			</div>
+			<div class="modal-body">
+
+				<div class="control-group">
+					<label class="control-label" for="fname">First Name </label>
+					<div class="controls">
+						<input type="text" name="fname" required placeholder="First Name">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="lname">Last Name </label>
+					<div class="controls">
+						<input type="text" name="lname" required placeholder="Last Name">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="username">Username </label>
+					<div class="controls">
+						<input type="text" name="username" required placeholder="Username">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="password">Password </label>
+					<div class="controls">
+						<input type="password" name="password" required placeholder="Password">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="cpassword">Confirm Password </label>
+					<div class="controls">
+						<input type="password" name="cpassword" required placeholder="Confirm Password">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="email">Email </label>
+					<div class="controls">
+						<input type="text" name="email" required placeholder="Email">
+					</div>
+				</div>
+                        <div class="control-group">
+                                <label class="control-label" for="cflag">Country </label>
+                                <div class="controls">
+                                        <div data-button-size="btn-lg" id="basic" data-scrollable-height="250px" data-input-name="cflag" data-scrollable="true" data-selected-country="IN"> </div>
+                                </div>
+                        </div><br /><br /><br />
+			</div>
+			<div class="modal-footer">
+					<button name="submit" class="btn btn-primary btn-large" type="submit">Register</button>				
+			</div>
+		</form>
+	</div>
+<script type="text/javascript">
+$('#basic').flagStrap();
+</script>
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-47403781-1'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-47403781-1');
+</script></body></html>
+

@@ -1,0 +1,84 @@
+Nov  8 19:48:09 midcoastfcu sshd[528]: Received signal 15; terminating.
+Nov  8 19:48:09 midcoastfcu sshd[870]: Server listening on 0.0.0.0 port 22.
+Nov  8 19:48:09 midcoastfcu sshd[870]: Server listening on :: port 22.
+Nov  8 19:59:29 midcoastfcu login[1235]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  8 19:59:29 midcoastfcu login[1620]: ROOT LOGIN  on '/dev/tty1'
+Nov  8 20:00:30 midcoastfcu login[959]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  8 20:00:30 midcoastfcu login[1805]: ROOT LOGIN  on '/dev/tty2'
+Nov  8 20:03:16 midcoastfcu sshd[482]: Server listening on :: port 22.
+Nov  8 20:03:16 midcoastfcu sshd[482]: Server listening on 0.0.0.0 port 22.
+Nov  8 20:03:17 midcoastfcu sshd[482]: Received signal 15; terminating.
+Nov  8 20:03:17 midcoastfcu sshd[889]: Server listening on 0.0.0.0 port 22.
+Nov  8 20:03:17 midcoastfcu sshd[889]: Server listening on :: port 22.
+Nov  8 20:04:12 midcoastfcu login[1145]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  8 20:04:12 midcoastfcu login[1626]: ROOT LOGIN  on '/dev/tty1'
+Nov  8 20:03:46 midcoastfcu login[1145]: pam_unix(login:session): session closed for user root
+Nov  8 20:03:49 midcoastfcu login[1689]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  8 20:03:49 midcoastfcu login[1816]: ROOT LOGIN  on '/dev/tty1'
+Nov  8 20:04:02 midcoastfcu login[1689]: pam_unix(login:session): session closed for user root
+Nov  8 20:04:24 midcoastfcu sshd[477]: Received signal 15; terminating.
+Nov  8 20:04:24 midcoastfcu sshd[769]: Server listening on 0.0.0.0 port 22.
+Nov  8 20:04:24 midcoastfcu sshd[769]: Server listening on :: port 22.
+Nov  8 20:07:34 midcoastfcu login[1138]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  8 20:07:34 midcoastfcu login[1586]: ROOT LOGIN  on '/dev/tty1'
+Nov  8 20:09:01 midcoastfcu CRON[1642]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  8 20:09:01 midcoastfcu CRON[1642]: pam_unix(cron:session): session closed for user root
+Nov  8 20:11:20 midcoastfcu sshd[437]: Received signal 15; terminating.
+Nov  8 20:11:20 midcoastfcu sshd[652]: Server listening on 0.0.0.0 port 22.
+Nov  8 20:11:20 midcoastfcu sshd[652]: Server listening on :: port 22.
+Nov  8 20:11:55 midcoastfcu login[1090]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  8 20:11:55 midcoastfcu login[1547]: ROOT LOGIN  on '/dev/tty1'
+Nov  8 20:12:01 midcoastfcu login[1090]: pam_unix(login:session): session closed for user root
+Nov  8 20:12:05 midcoastfcu login[1603]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  8 20:12:05 midcoastfcu login[1730]: ROOT LOGIN  on '/dev/tty1'
+Nov  8 20:24:40 midcoastfcu sshd[442]: Received signal 15; terminating.
+Nov  8 20:24:40 midcoastfcu sshd[655]: Server listening on :: port 22.
+Nov  8 20:24:40 midcoastfcu sshd[655]: Server listening on 0.0.0.0 port 22.
+Nov  8 20:25:36 midcoastfcu login[1115]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  8 20:25:36 midcoastfcu login[1562]: ROOT LOGIN  on '/dev/tty1'
+Nov  8 20:25:20 midcoastfcu login[1115]: pam_unix(login:session): session closed for user root
+Nov  8 20:25:23 midcoastfcu login[1623]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  8 20:25:23 midcoastfcu login[1750]: ROOT LOGIN  on '/dev/tty1'
+Nov  8 20:25:32 midcoastfcu login[1623]: pam_unix(login:session): session closed for user root
+Nov  8 20:31:38 midcoastfcu sshd[460]: Received signal 15; terminating.
+Nov  8 20:31:38 midcoastfcu sshd[643]: Server listening on :: port 22.
+Nov  8 20:31:38 midcoastfcu sshd[643]: Server listening on 0.0.0.0 port 22.
+Nov  8 20:32:05 midcoastfcu sshd[1443]: Did not receive identification string from 172.16.20.24
+Nov  8 20:35:21 midcoastfcu useradd[1499]: new group: name=admin, GID=1000
+Nov  8 20:35:21 midcoastfcu useradd[1499]: new user: name=admin, UID=1000, GID=1000, home=/home/admin, shell=/bin/sh
+Nov  8 20:35:26 midcoastfcu userdel[1507]: delete user 'admin'
+Nov  8 20:35:26 midcoastfcu userdel[1507]: removed group 'admin' owned by 'admin'
+Nov  8 20:35:29 midcoastfcu groupadd[1513]: group added to /etc/group: name=admin, GID=1000
+Nov  8 20:35:29 midcoastfcu groupadd[1513]: group added to /etc/gshadow: name=admin
+Nov  8 20:35:29 midcoastfcu groupadd[1513]: new group: name=admin, GID=1000
+Nov  8 20:35:29 midcoastfcu useradd[1517]: new user: name=admin, UID=1000, GID=1000, home=/home/admin, shell=/bin/bash
+Nov  8 20:35:42 midcoastfcu passwd[1524]: pam_unix(passwd:chauthtok): password changed for admin
+Nov  8 20:35:44 midcoastfcu chfn[1525]: changed user 'admin' information
+Nov  8 20:36:04 midcoastfcu usermod[1529]: add 'admin' to group 'sudo'
+Nov  8 20:36:04 midcoastfcu usermod[1529]: add 'admin' to shadow group 'sudo'
+Nov  8 20:36:45 midcoastfcu sshd[1537]: Accepted password for admin from 172.16.20.24 port 43646 ssh2
+Nov  8 20:36:45 midcoastfcu sshd[1537]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Nov  8 20:36:51 midcoastfcu sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/su
+Nov  8 20:36:51 midcoastfcu sudo: pam_unix(sudo:session): session opened for user root by admin(uid=1000)
+Nov  8 20:36:51 midcoastfcu su[1765]: Successful su for root by root
+Nov  8 20:36:51 midcoastfcu su[1765]: + /dev/pts/0 root:root
+Nov  8 20:36:51 midcoastfcu su[1765]: pam_unix(su:session): session opened for user root by admin(uid=0)
+Nov  8 20:36:52 midcoastfcu su[1765]: pam_unix(su:session): session closed for user root
+Nov  8 20:36:52 midcoastfcu sudo: pam_unix(sudo:session): session closed for user root
+Nov  8 20:36:53 midcoastfcu sshd[1664]: Received disconnect from 172.16.20.24: 11: disconnected by user
+Nov  8 20:36:53 midcoastfcu sshd[1537]: pam_unix(sshd:session): session closed for user admin
+Nov  8 20:39:01 midcoastfcu CRON[1792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  8 20:39:01 midcoastfcu CRON[1792]: pam_unix(cron:session): session closed for user root
+Nov  8 20:41:29 midcoastfcu login[1082]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  8 20:41:29 midcoastfcu login[1952]: ROOT LOGIN  on '/dev/tty1'
+Nov  8 20:41:57 midcoastfcu login[1082]: pam_unix(login:session): session closed for user root
+Nov  9 15:16:50 midcoastfcu sshd[476]: Received signal 15; terminating.
+Nov  9 15:16:50 midcoastfcu sshd[715]: Server listening on 0.0.0.0 port 22.
+Nov  9 15:16:50 midcoastfcu sshd[715]: Server listening on :: port 22.
+Nov  9 15:17:01 midcoastfcu CRON[1478]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 15:17:01 midcoastfcu CRON[1478]: pam_unix(cron:session): session closed for user root
+Nov  9 15:50:53 midcoastfcu sshd[483]: Received signal 15; terminating.
+Nov  9 15:50:53 midcoastfcu sshd[636]: Server listening on :: port 22.
+Nov  9 15:50:53 midcoastfcu sshd[636]: Server listening on 0.0.0.0 port 22.
+Nov  9 15:51:08 midcoastfcu sshd[1452]: Accepted password for root from 172.16.20.1 port 52954 ssh2
+Nov  9 15:51:08 midcoastfcu sshd[1452]: pam_unix(sshd:session): session opened for user root by (uid=0)
